@@ -3,6 +3,7 @@ package SERVICASA;
 import java.util.List;
 
 public class Empleado {
+	private Long id;
 	private String empleado;
 	private List<Servicio> servicios;
 	private String ciudad;
