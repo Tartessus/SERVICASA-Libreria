@@ -30,10 +30,11 @@ public abstract class Servicio {
 	}
 
 
-	public Servicio(String nombre, float precioBase) {
+	public Servicio(String nombre, float precioBase, Long id) {
 		super();
 		this.nombre = nombre;
 		this.precioBase = precioBase;
+		this.id = id;
 	}
 
 	public Servicio() {

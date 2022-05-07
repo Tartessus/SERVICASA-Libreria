@@ -40,16 +40,23 @@ public class Empleado {
 	public void setEmail(String email) {
 		this.email = email;
 	}
+	
+	public Long getId() {
+		return id;
+	}
 
-	public Empleado(String empleado, List<Servicio> servicios, String ciudad, String email) {
+	public Empleado(String empleado, List<Servicio> servicios, String ciudad, String email, Long id) {
 		super();
 		this.empleado = empleado;
 		this.servicios = servicios;
 		this.ciudad = ciudad;
 		this.email = email;
+		this.id = id;
 	}
 
 	public Empleado() {
 		
 	}
+
+	
 }

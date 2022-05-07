@@ -21,8 +21,8 @@ public class Geriatria extends Servicio {
 		this.titulacion = titulacion;
 	}
 
-	public Geriatria(String nombre, float precioBase, int anosExperiencia, String titulacion) {
-		super(nombre, precioBase);
+	public Geriatria(String nombre, float precioBase, int anosExperiencia, String titulacion, Long id) {
+		super(nombre, precioBase, id);
 		this.anosExperiencia = anosExperiencia;
 		this.titulacion = titulacion;
 	}

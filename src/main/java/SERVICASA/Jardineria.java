@@ -11,8 +11,8 @@ public class Jardineria extends Servicio {
 		this.materialPropio = materialPropio;
 	}
 
-	public Jardineria(String nombre, float precioBase, boolean materialPropio) {
-		super(nombre, precioBase);
+	public Jardineria(String nombre, float precioBase, boolean materialPropio, long id) {
+		super(nombre, precioBase, id);
 		this.materialPropio = materialPropio;
 	}
 
