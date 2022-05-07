@@ -49,5 +49,7 @@ public class Empleado {
 		this.email = email;
 	}
 
-	
+	public Empleado() {
+		
+	}
 }

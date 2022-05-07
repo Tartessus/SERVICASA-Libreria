@@ -36,5 +36,8 @@ public abstract class Servicio {
 		this.precioBase = precioBase;
 	}
 
+	public Servicio() {
+		
+	}
 	
 }

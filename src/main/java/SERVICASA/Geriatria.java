@@ -27,4 +27,4 @@ public class Geriatria extends Servicio {
 		this.titulacion = titulacion;
 	}
 
-}
+}	
