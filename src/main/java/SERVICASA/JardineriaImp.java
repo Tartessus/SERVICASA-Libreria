@@ -15,8 +15,8 @@ public class JardineriaImp extends Servicio  {
 
 	}
 
-	public JardineriaImp(String nombre, float precioBase, boolean materialPropio, long id) {
-		super(nombre, precioBase, id);
+	public JardineriaImp(String nombre, float precioBase, boolean materialPropio) {
+		super(nombre, precioBase);
 		this.materialPropio = materialPropio;
 	}
 

@@ -26,8 +26,8 @@ public class GeriatriaImp extends Servicio {
 		
 	}
 	
-	public GeriatriaImp(String nombre, float precioBase, int anosExperiencia, String titulacion, Long id) {
-		super(nombre, precioBase, id);
+	public GeriatriaImp(String nombre, float precioBase, int anosExperiencia, String titulacion) {
+		super(nombre, precioBase);
 		this.anosExperiencia = anosExperiencia;
 		this.titulacion = titulacion;
 	}
