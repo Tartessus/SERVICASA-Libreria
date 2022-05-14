@@ -1,11 +1,11 @@
 package SERVICASA;
 
-import java.util.List;
+
 
 public class Empleado {
-	private Long id;
+
 	private String empleado;
-	private List<Servicio> servicios;
+
 	private String ciudad;
 	private String email;
 
@@ -17,13 +17,7 @@ public class Empleado {
 		this.empleado = empleado;
 	}
 
-	public List<Servicio> getServicios() {
-		return servicios;
-	}
-
-	public void setServicios(List<Servicio> servicios) {
-		this.servicios = servicios;
-	}
+	
 
 	public String getCiudad() {
 		return ciudad;
@@ -40,23 +34,18 @@ public class Empleado {
 	public void setEmail(String email) {
 		this.email = email;
 	}
-	
-	public Long getId() {
-		return id;
-	}
-
-	public Empleado(String empleado, List<Servicio> servicios, String ciudad, String email, Long id) {
-		super();
-		this.empleado = empleado;
-		this.servicios = servicios;
-		this.ciudad = ciudad;
-		this.email = email;
-		this.id = id;
-	}
 
 	public Empleado() {
-		
+
 	}
 
-	
+	public Empleado(String empleado,  String ciudad, String email) {
+		super();
+		this.empleado = empleado;
+
+		this.ciudad = ciudad;
+		this.email = email;
+
+	}
+
 }

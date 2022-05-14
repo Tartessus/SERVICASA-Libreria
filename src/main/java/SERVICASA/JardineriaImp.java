@@ -1,6 +1,6 @@
 package SERVICASA;
 
-public class JardineriaImp extends Servicio implements Jardineria {
+public class JardineriaImp extends Servicio  {
 	private boolean materialPropio;
 
 	public boolean isMaterialPropio() {
@@ -9,6 +9,10 @@ public class JardineriaImp extends Servicio implements Jardineria {
 
 	public void setMaterialPropio(boolean materialPropio) {
 		this.materialPropio = materialPropio;
+	}
+
+	public JardineriaImp() {
+
 	}
 
 	public JardineriaImp(String nombre, float precioBase, boolean materialPropio, long id) {

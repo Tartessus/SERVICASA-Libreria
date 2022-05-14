@@ -1,7 +1,7 @@
 package SERVICASA;
 
 
-public class GeriatriaImp extends Servicio implements Geriatria {
+public class GeriatriaImp extends Servicio {
 	private int anosExperiencia;
 	private String titulacion;
 
@@ -21,6 +21,11 @@ public class GeriatriaImp extends Servicio implements Geriatria {
 		this.titulacion = titulacion;
 	}
 
+	public GeriatriaImp() {
+		
+		
+	}
+	
 	public GeriatriaImp(String nombre, float precioBase, int anosExperiencia, String titulacion, Long id) {
 		super(nombre, precioBase, id);
 		this.anosExperiencia = anosExperiencia;
