@@ -25,7 +25,7 @@ public abstract class Servicio {
 
 	}
 
-	public Servicio(String nombre, float precioBase, Long id) {
+	public Servicio(String nombre, float precioBase) {
 		this.nombre = nombre;
 		this.precioBase = precioBase;
 
