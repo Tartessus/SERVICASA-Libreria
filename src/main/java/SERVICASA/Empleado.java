@@ -4,17 +4,17 @@ package SERVICASA;
 
 public class Empleado {
 
-	private String empleado;
+	private String nombre;
 
 	private String ciudad;
 	private String email;
 
-	public String getEmpleado() {
-		return empleado;
+	public String getNombre() {
+		return nombre;
 	}
 
-	public void setEmpleado(String empleado) {
-		this.empleado = empleado;
+	public void setEmpleado(String nombre) {
+		this.nombre = nombre;
 	}
 
 	
@@ -39,9 +39,9 @@ public class Empleado {
 
 	}
 
-	public Empleado(String empleado,  String ciudad, String email) {
+	public Empleado(String nombre,  String ciudad, String email) {
 		super();
-		this.empleado = empleado;
+		this.nombre = nombre;
 
 		this.ciudad = ciudad;
 		this.email = email;
