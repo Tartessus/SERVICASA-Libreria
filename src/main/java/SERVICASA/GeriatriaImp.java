@@ -32,4 +32,9 @@ public class GeriatriaImp extends Servicio {
 		this.titulacion = titulacion;
 	}
 
+	@Override
+	public String toString() {
+		return getNombre() + "GeriatriaImp [anosExperiencia=" + getAnosExperiencia() + ", titulacion=" + getTitulacion() + "]";
+	}
+
 }	

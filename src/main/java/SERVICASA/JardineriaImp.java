@@ -20,4 +20,10 @@ public class JardineriaImp extends Servicio  {
 		this.materialPropio = materialPropio;
 	}
 
+	@Override
+	public String toString() {
+		return getNombre() + "JardineriaImp [materialPropio=" + materialPropio + "]";
+	}
+
+	
 }

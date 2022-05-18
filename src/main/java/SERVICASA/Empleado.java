@@ -1,14 +1,22 @@
 package SERVICASA;
 
-
-
 public class Empleado {
-
+	
+	private int dni;
 	private String nombre;
-
 	private String ciudad;
 	private String email;
 
+	
+	
+	public int getDni() {
+		return dni;
+	}
+
+	public void setDni(int dni) {
+		this.dni = dni;
+	}
+	
 	public String getNombre() {
 		return nombre;
 	}
@@ -16,8 +24,6 @@ public class Empleado {
 	public void setEmpleado(String nombre) {
 		this.nombre = nombre;
 	}
-
-	
 
 	public String getCiudad() {
 		return ciudad;
@@ -39,13 +45,18 @@ public class Empleado {
 
 	}
 
-	public Empleado(String nombre,  String ciudad, String email) {
-		super();
+	public Empleado(int dni, String nombre, String ciudad, String email) {
+		this.dni =dni;
 		this.nombre = nombre;
-
 		this.ciudad = ciudad;
 		this.email = email;
 
 	}
+
+	@Override
+	public String toString() {
+		return "Usuario: " + getNombre() + " con DNI: "+ getDni();
+	}
+
 
 }

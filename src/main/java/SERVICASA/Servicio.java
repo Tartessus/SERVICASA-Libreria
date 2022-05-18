@@ -1,7 +1,8 @@
 package SERVICASA;
 
 public abstract class Servicio {
-
+	
+	private Long id;
 	private String nombre;
 	private float precioBase;
 
@@ -21,6 +22,13 @@ public abstract class Servicio {
 		this.precioBase = precioBase;
 	}
 
+	public Long getId() {
+		return id;
+	}
+
+	public void setId(Long id) {
+		this.id = id;
+	}
 	public Servicio() {
 
 	}
@@ -30,5 +38,7 @@ public abstract class Servicio {
 		this.precioBase = precioBase;
 
 	}
+
+
 
 }
