@@ -1,6 +1,6 @@
 package SERVICASA;
 
-public class JardineriaImp extends Servicio  {
+public class JardineriaImp extends Servicio implements Jardineria  {
 	private boolean materialPropio;
 
 	public boolean isMaterialPropio() {

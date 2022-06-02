@@ -1,7 +1,7 @@
 package SERVICASA;
 
 
-public class GeriatriaImp extends Servicio {
+public class GeriatriaImp extends Servicio implements Geriatria {
 	private int anosExperiencia;
 	private String titulacion;
 
