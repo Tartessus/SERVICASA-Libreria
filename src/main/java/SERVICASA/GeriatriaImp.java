@@ -21,20 +21,5 @@ public class GeriatriaImp extends Servicio implements Geriatria {
 		this.titulacion = titulacion;
 	}
 
-	public GeriatriaImp() {
-		
-		
-	}
 	
-	public GeriatriaImp(String nombre, float precioBase, int anosExperiencia, String titulacion) {
-		super(nombre, precioBase);
-		this.anosExperiencia = anosExperiencia;
-		this.titulacion = titulacion;
-	}
-
-	@Override
-	public String toString() {
-		return getNombre() + "GeriatriaImp [anosExperiencia=" + getAnosExperiencia() + ", titulacion=" + getTitulacion() + "]";
-	}
-
 }	

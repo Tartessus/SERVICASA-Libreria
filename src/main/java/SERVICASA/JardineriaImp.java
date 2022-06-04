@@ -11,19 +11,6 @@ public class JardineriaImp extends Servicio implements Jardineria  {
 		this.materialPropio = materialPropio;
 	}
 
-	public JardineriaImp() {
-
-	}
-
-	public JardineriaImp(String nombre, float precioBase, boolean materialPropio) {
-		super(nombre, precioBase);
-		this.materialPropio = materialPropio;
-	}
-
-	@Override
-	public String toString() {
-		return getNombre() + "JardineriaImp [materialPropio=" + materialPropio + "]";
-	}
-
+	
 	
 }
