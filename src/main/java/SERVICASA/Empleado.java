@@ -12,7 +12,7 @@ public class Empleado {
 	private String email;
 	private String ciudad;
 	private String provincia;
-	private Collection<Servicio> servicios = new ArrayList<>();
+//	private Collection<Servicio> servicios = new ArrayList<>();
 
 	public int getDni() {
 		return dni;
@@ -70,23 +70,21 @@ public class Empleado {
 		this.provincia = provincia;
 	}
 
-	public Collection<Servicio> getServicios() {
-		return servicios;
-	}
+//	public Collection<Servicio> getServicios() {
+//		return servicios;
+//	}
+//
+//	public void setServicios(Collection<Servicio> servicios) {
+//		this.servicios = servicios;
+//	}
 
-	public void setServicios(Collection<Servicio> servicios) {
-		this.servicios = servicios;
-	}
-
-	public void addServicio(Servicio servicio) {
-		getServicios().add(servicio);
-	}
+	
 
 	public Empleado() {
 
 	}
 
-	public Empleado(int dni, String nombre, String apellido, String direccion, String email, String ciudad, String provincia, Collection<Servicio> servicios ) {
+	public Empleado(int dni, String nombre, String apellido, String direccion, String email, String ciudad, String provincia ) {
 		this.dni = dni;
 		this.nombre = nombre;
 		this.apellido = apellido;
@@ -94,7 +92,7 @@ public class Empleado {
 		this.email = email;
 		this.ciudad = ciudad;
 		this.provincia = provincia;
-		this.servicios =servicios;
+//		this.servicios =servicios;
 
 	}
 
